@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Data>
+<Department Id="1">
+<Name>IT</Name>
+<Location>New York</Location>
+</Department>
+<Department Id="2">
+<Name>HR</Name>
+<Location>London</Location>
+</Department>
+<Department Id="3">
+<Name>Payroll</Name>
+<Location>Mumbai</Location>
+</Department>
+</Data>

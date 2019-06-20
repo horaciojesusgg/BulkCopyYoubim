@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29009.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibraryYouBim", "ClassLibraryYouBim\ClassLibraryYouBim.csproj", "{EF6903A5-3765-46BF-867B-DD27C7D0946B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestYoubimLibrary", "TestYoubimLibrary\TestYoubimLibrary.csproj", "{20058099-9B55-4EA7-ABE7-42A2E94B604E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF6903A5-3765-46BF-867B-DD27C7D0946B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF6903A5-3765-46BF-867B-DD27C7D0946B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF6903A5-3765-46BF-867B-DD27C7D0946B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF6903A5-3765-46BF-867B-DD27C7D0946B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20058099-9B55-4EA7-ABE7-42A2E94B604E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20058099-9B55-4EA7-ABE7-42A2E94B604E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20058099-9B55-4EA7-ABE7-42A2E94B604E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20058099-9B55-4EA7-ABE7-42A2E94B604E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7D7B8AE4-D12D-41EC-8C79-3857FBF00897}
+	EndGlobalSection
+EndGlobal
