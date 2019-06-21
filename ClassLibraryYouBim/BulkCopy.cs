@@ -15,9 +15,9 @@ namespace ClassLibraryYouBim
                 return;
             }
 
-            string cs = "server=" + serverName + ";database=" + databaseName + ";integrated security=true";
+            string connectionString = "server=" + serverName + ";database=" + databaseName + ";integrated security=true";
 
-            using (SqlConnection con = new SqlConnection(cs))
+            using (SqlConnection con = new SqlConnection(connectionString))
             {
                 DataSet dataset = new DataSet();
 
@@ -27,14 +27,14 @@ namespace ClassLibraryYouBim
 
                 con.Open();
 
-                using (SqlBulkCopy sb = new SqlBulkCopy(con))
+                using (SqlBulkCopy bulkCopy = new SqlBulkCopy(con))
                 {
-                    sb.DestinationTableName = tableName;
+                    bulkCopy.DestinationTableName = tableName;
                     foreach (DataColumn column in table.Columns)
                     {
-                        sb.ColumnMappings.Add(column.ColumnName, column.ColumnName);
+                        bulkCopy.ColumnMappings.Add(column.ColumnName, column.ColumnName);
                     }
-                    sb.WriteToServer(table);
+                    bulkCopy.WriteToServer(table);
                 }
             }
         }
